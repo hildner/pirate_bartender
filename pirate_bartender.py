@@ -17,9 +17,7 @@ ingredients = {
 
 def preferences():
     '''Asks the customer questions about drink preferences and compiles the answers'''
-
     answers = {}
-
     for question in questions:
         response = input(questions[question] + " (y/n)" + "\n")
         if response == 'y':
